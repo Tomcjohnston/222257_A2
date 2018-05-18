@@ -18,24 +18,29 @@ body{
 .title{
     position: fixed;
     font-family: helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 7vw;
+    font-weight: 600;
+    font-size: 10vw;
+    line-height: 10vw;
+    letter-spacing: 0.1vw;
     width: 100%;
     padding: 5px;
     margin: 5px;
     text-align: center;
     text-decoration: underline;
+    text-transform: uppercase; 
+    color: #1e1e1e;
 }
 
 .quote{
     position: absolute;
     font-family: Times New Roman, Times, serif;
     font-weight: 500;
-    font-size: 4vw;
+    font-size: 6vw;
+    line-height: 6vw;
     text-align: left;
-    width: 55%;
-    margin-top: 21vw;
-    margin-left: 26vw;
+    width: 80%;
+    margin-top: 25vw;
+    margin-left: 15vw;
     color: #1f1c85;
     
     
@@ -84,7 +89,7 @@ body{
     left: 10vw;
     right: auto;
     z-index: 3;
-    margin-top: 200px;
+    margin-top: 25vw;
     padding-bottom: 75px;
     opacity: 1;
     float: left;
@@ -109,12 +114,12 @@ body{
     left: 10vw;
     right: auto;
     z-index: 3;
-    margin-top: 200px;
-    padding-bottom: 75px;
+    margin-top: 23vw;
+    padding-bottom: 0;
     opacity: 1;
     float: left;
     overflow: hidden;
-    background-color: #58585b;
+    background-color: #427865;
     border: 2px solid #000;
     border-width: 2px 2px 2px 2px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
@@ -122,18 +127,32 @@ body{
 
 .headings{
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 150px;
     margin-left: 10px;
     left: 10px;
     font-family: helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10vw;
+    letter-spacing: 0.01vw;
+    line-height: 9vw;
+    color: #bbbdc0;
+    text-transform: uppercase;
+}
+
+.backhome{
+    position: fixed;
+    padding-top: 200px;
+    padding-bottom: 0;
+    margin-left: 10px;
+    left: 5px;
+    float: right;
+    font-family: helvetica, Arial, sans-serif;
     font-weight: lighter;
-    font-size: 5vw;
+    font-size: 2vw;
     letter-spacing: -0.1vw;
-    line-height: 5vw;
-    text-decoration: underline;
-     
-    
+    line-height: 2vw;
+    color: #1e1e1e;
 }
 
 .subhead{
@@ -150,7 +169,7 @@ body{
     font-style: italic;
     letter-spacing: -0.01vw;
     line-height: 4vw;
-    color: #712027;
+    color: #1e1e1e;
 }
 
 .images{
@@ -190,22 +209,25 @@ body{
     font-style: italic;
     text-decoration: underline;
     letter-spacing: -0.01vw;
+    color: #1e1e1e;
 }
 
 .bodtext{
     position: relative;
     padding-top: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     margin-left: 300px;
     left: 100px;
-    width:  50%;
+    width:  45%;
     font-family: helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 1vw;
     letter-spacing: -0.01vw;
     line-height: 1.5vw;
-    color: black;
+    color: #1e1e1e;
 }
+
+.backhome
 
 
 
@@ -230,4 +252,12 @@ a1:hover{
     color: #000000;
     font-style: italic;
 }
+
+a2:active, a2:visited, a2:link{
+    color: #000000;
+    text-decoration: none;
+}
+a2:hover{
+    color: #000000;
+    font-style: italic;
 
